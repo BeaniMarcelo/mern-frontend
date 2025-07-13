@@ -1,7 +1,7 @@
 .modal {
   z-index: 100;
   position: fixed;
-  top: 64px;
+  top: 100px;
   left: 10%;
   width: 80%;
   background: white;
@@ -17,6 +17,8 @@
     padding: 1rem 0.5rem;
     background: #2a006e;
     color: white;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
   }
   
   .modal__header h2 {
