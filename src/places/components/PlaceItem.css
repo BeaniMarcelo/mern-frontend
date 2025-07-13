@@ -36,6 +36,9 @@
 
 .place-item__modal-content {
     padding: 0;
+    height: calc(100vh - 200px);
+    min-height: 100px;
+    max-height: 300px;
 }
 
 .place-item__modal-actions {
@@ -48,7 +51,7 @@
 }
 
 .map-container {
-    height: 5rem;
+    height: 100%;
     width: 100%;
 }
 
